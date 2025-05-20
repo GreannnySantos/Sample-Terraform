@@ -62,4 +62,5 @@ resource "aws_nat_gateway" "rq_nat_gateway" {
 }
 
 
+
   

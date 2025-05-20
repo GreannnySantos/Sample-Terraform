@@ -7,6 +7,7 @@ provider "aws" {
   secret_key = var.aws_secret_key
 }
 
+
 #----------------------------------------------vpc------------------------------------------------------------#
 #Create vpc 
 resource "aws_vpc" "rq_vpc" {

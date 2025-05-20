@@ -20,6 +20,7 @@ resource "aws_security_group_rule" "rq_public_alb_sg0_rule" {
       security_group_id  = aws_security_group.rq_public_alb_sg.id
     }
 
+
 resource "aws_security_group_rule" "rq_public_alb_sg1_rule" { 
        type          = "ingress"
        from_port     = 80

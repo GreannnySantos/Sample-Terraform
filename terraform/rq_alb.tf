@@ -1,6 +1,5 @@
 
 
-
 #target group for alb
 resource "aws_lb_target_group" "rq_target_group" {
   name         = "rq-target-group"

@@ -11,7 +11,6 @@ resource "aws_subnet" "rq_private_subnet" {
   }
 }
 
-
 #----------------------------------------------route table------------------------------------------------------------#
 resource "aws_route_table" "rq_private_route_table" {
   vpc_id = aws_vpc.rq_vpc.id

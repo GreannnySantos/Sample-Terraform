@@ -8,6 +8,7 @@ variable "aws_secret_key" {
     default = ""  
 }
 
+
 #----------------------------------------------subnet variables------------------------------------------------------------#
 variable "rq_public_subnets_cidr" {
 type    = list 
